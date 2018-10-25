@@ -1,0 +1,9 @@
+version: "3"
+services:
+  db:
+   image: dalongrong/pipeline:1.0
+   build: ./
+   environment:
+   - POSTGRES_PASSWORD: "dalongdemo"
+   ports:
+   - "5432:5432"
