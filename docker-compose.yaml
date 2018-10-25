@@ -1,7 +1,7 @@
 version: "3"
 services:
   db:
-   image: dalongrong/pipelinedb:1.0
+   image: dalongrong/pipelinedb:1.0.0
    build: ./
    environment:
    - "POSTGRES_PASSWORD=dalongdemo"
