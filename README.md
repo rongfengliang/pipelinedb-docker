@@ -29,3 +29,8 @@ docker build -t mypipelinedb .
 docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=dalongdemo
 dalongrong/pipelinedb:1.0
 ```
+
+## env
+
+just see postgres env from
+[postgres](https://hub.docker.com/r/_/postgres/)
